@@ -1,3 +1,18 @@
-body {
-	
+div.container {	
+	background-image: url('../img/bgi.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+	width: 100vw;
+	height: 100vh;
+}
+
+.bgc-black { background-color: black; }
+div.regblock {
+	position: relative;	
+	margin: 0 auto;
+	top: 25px;
+	opacity: 0.7;
+	width: 558px;
+	height: 612px;
 }
