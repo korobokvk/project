@@ -9,8 +9,8 @@ div.container {
 
 .bgc-black { background-color: black; }
 .bgc-blue  { background-color: blue; }
-.bgc-lightblue { background-color: #1b5288;}
-.fonts { font-family: 'Tahoma regular'; color: white;}
+.bgc-lightblue { background-color: #47a1d5;}
+.fonts { font-family: 'Tahoma Regular'; color: white;}
 
 div.regblock {
 	position: absolute;	
@@ -68,5 +68,82 @@ button.fb {
 	color: white;
 	padding-top: 3px; 
 	text-align: center;
-
 }
+div.cowerline {
+	width: 280px;
+	margin: 0 auto;	
+	padding: 32px;
+}
+div.line1,
+div.line2 {
+	background-color: grey;
+	height: 1px;
+	width: 120px;
+	display: inline-block;	
+}
+span.ou {
+	top: 5px;
+	position: relative;
+	display: inline-block;	
+	font-family: 'Tahoma';
+	font-size: 14px;
+	color: grey;
+	text-align: center;
+}
+
+/*=====MAIN FORMS======*/
+
+form.mailto {
+	width: 275px;
+	margin: 0 auto;
+}
+input.inputs {
+	width: 275px;
+	height: 35px;
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	font-family: 'Tahoma';
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid grey;
+	margin-bottom: 15px;
+}
+input.inputs:focus{
+	width: 275px;
+	height: 35px;
+	background-color: #1b5288;
+	color: white;	
+	font-size: 14px;
+	font-family: 'Tahoma';
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid grey;
+	margin-bottom: 15px;
+}
+.check {
+	margin-top: 20px;
+}
+span.chfont {
+	font-size: 14px;
+	color: white;
+	font-family: "Tahoma";
+	font-stretch: ultra-condensed;
+}
+input.submit {	
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px; 
+	width: 150px;
+	height: 35px;	
+	border-radius: 5px;
+	font-size: 14px;	
+	border-style: 2px solid #0469a3;
+	background: linear-gradient(#0ca4fc, #0469a3);
+	background-color: #7ecefc;
+	border: none;
+    
+}
+
