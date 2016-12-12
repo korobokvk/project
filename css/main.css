@@ -143,7 +143,12 @@ input.submit {
 	border-style: 2px solid #0469a3;
 	background: linear-gradient(#0ca4fc, #0469a3);
 	background-color: #7ecefc;
-	border: none;
-    
+	border: none;    
+}
+p {
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+	font-size: 11px;
 }
 
