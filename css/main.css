@@ -158,7 +158,7 @@ input.submit {
 	background-color: #7ecefc;
 	border: none;    
 }
-p {
+p.pform {
 	margin-top: 20px;
 	text-align: center;
 	color: white;
@@ -173,7 +173,7 @@ header.header {
 ul.menu li {
 	text-decoration: none;
 	display: inline-block;
-	padding-top: 10px;
+	padding-bottom: 5px;
 	padding-right: 10px;
 	padding-left: 10px;
 	height: 100%;
@@ -184,32 +184,43 @@ a {
 	text-decoration: none;
 	text-align: center;
 	color: #4091cd;
-	height: 100%;
+	height: 100%;	
 } 
-a:hover {
+a > :hover {
 	color: white;
 	background-color: #4eabda;	
 }
+p.pmenu:hover {
+	color: white;
+}
+
 ul.menu li:hover {
 	background-color: #4eabda;	
 	height: 100%;
+	padding-bottom: 10px;
+	color: white;
 }
-a span {
-	
-	font-family: 'Tahoma';
-	font-size: 14px;
-	font-style: bold;
+p.pmenu {	
+	margin-top: 10px;
+	font-family: 'tahoma';
 	text-align: center;
-	height: 100%;
+	color: #4ea1da;
+	font-size: 14px;
 }
 ul.menu2 li {
 	display: inline-block;
 	float: right;
 	text-align: center;
 	text-decoration: none;
-	padding-top: 10px;
+	padding-bottom: 5px;
 	height: 100%;
 	padding-right: 10px;
+}
+ul.menu2 li:hover {
+	background-color: #4eabda;	
+	height: 100%;
+	padding-bottom: 10px;
+	color: white;
 }
 div.menuline {
 	float: right;
@@ -218,4 +229,7 @@ div.menuline {
 	background-color: white;
 	z-index: 9999;
 	height: 100%;
+}
+ul.menu2 li:nth-child(3) {
+	padding-top: 10px;
 }
