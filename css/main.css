@@ -1,3 +1,7 @@
+
+
+/*=====background=====*/
+
 div.container {	
 	background-image: url('../img/bgi.png');
 	background-position: center center;
@@ -7,10 +11,14 @@ div.container {
 	height: 1030px;
 }
 
+/*====templates====*/
+
 .bgc-black { background-color: black; }
 .bgc-blue  { background-color: blue; }
 .bgc-lightblue { background-color: #47a1d5;}
 .fonts { font-family: 'Tahoma Regular'; color: white;}
+
+/*=====registration block=====*/
 
 div.regblock {
 	position: absolute;	
@@ -109,11 +117,15 @@ input.inputs {
 	border-right: none;
 	border-bottom: 1px solid grey;
 	margin-bottom: 15px;
+	border-radius: 2px;
+	padding-left: 19px;
+
 }
 input.inputs:focus{
 	width: 275px;
 	height: 35px;
 	background-color: #1b5288;
+	box-shadow: 0 0 10px 10px #1b5288;
 	color: white;	
 	font-size: 14px;
 	font-family: 'Tahoma';
@@ -122,6 +134,7 @@ input.inputs:focus{
 	border-right: none;
 	border-bottom: 1px solid grey;
 	margin-bottom: 15px;
+
 }
 .check {
 	margin-top: 20px;
@@ -152,3 +165,57 @@ p {
 	font-size: 11px;
 }
 
+/*=====HEADER=====*/
+
+header.header {
+	height: 36px;
+}
+ul.menu li {
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 100%;
+	text-align: center;
+	float: right;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	color: #4091cd;
+	height: 100%;
+} 
+a:hover {
+	color: white;
+	background-color: #4eabda;	
+}
+ul.menu li:hover {
+	background-color: #4eabda;	
+	height: 100%;
+}
+a span {
+	
+	font-family: 'Tahoma';
+	font-size: 14px;
+	font-style: bold;
+	text-align: center;
+	height: 100%;
+}
+ul.menu2 li {
+	display: inline-block;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 10px;
+	height: 100%;
+	padding-right: 10px;
+}
+div.menuline {
+	float: right;
+	width: 1px;
+	height: 100%;
+	background-color: white;
+	z-index: 9999;
+	height: 100%;
+}
